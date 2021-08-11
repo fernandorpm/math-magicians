@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 
-const CalcButton = ({ character, classButton }) => <button type="button" className={classButton}>{character}</button>;
+const CalcButton = ({ buttonName, classButton }) => <button type="button" className={classButton}>{buttonName}</button>;
 
 CalcButton.defaultProps = {
-  character: '?',
+  buttonName: '?',
   classButton: 'whiteButton',
 };
 
 CalcButton.propTypes = {
-  character: PropTypes.string,
+  buttonName: PropTypes.string,
   classButton: PropTypes.string,
 };
 
