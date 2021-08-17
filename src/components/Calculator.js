@@ -24,32 +24,37 @@ function Calculator() {
 
   return (
 
-    <div className="Calculator">
-      <div className="Calculator-result">{display}</div>
+    <div className="displayFlex">
+      <h1>Let&apos;s do some math!</h1>
 
-      <CalcButton buttonName="AC" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="+/-" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="%" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="÷" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
+      <div className="Calculator">
+        <div className="Calculator-result">{display}</div>
 
-      <CalcButton buttonName="7" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="8" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="9" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="x" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
+        <CalcButton buttonName="AC" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="+/-" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="%" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="÷" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
 
-      <CalcButton buttonName="4" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="5" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="6" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="-" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
+        <CalcButton buttonName="7" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="8" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="9" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="x" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
 
-      <CalcButton buttonName="1" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="2" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="3" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="+" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
+        <CalcButton buttonName="4" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="5" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="6" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="-" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
 
-      <CalcButton buttonName="0" onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="." onClick={handleCalculate} calcObj={calculatorObj} />
-      <CalcButton buttonName="=" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
+        <CalcButton buttonName="1" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="2" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="3" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="+" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
+
+        <CalcButton buttonName="0" onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="." onClick={handleCalculate} calcObj={calculatorObj} />
+        <CalcButton buttonName="=" onClick={handleCalculate} calcObj={calculatorObj} classButton="orangeButton" />
+
+      </div>
 
     </div>
   );
