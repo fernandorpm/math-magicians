@@ -8,7 +8,7 @@ describe('ADD Testing', () => {
   test('adds 1 + 3 to NOT equal 5', () => {
     expect(Number(operate(1, 3, '+'))).not.toBe(5);
   });
-})
+});
 
 describe('SUBTRACT Testing', () => {
   test('subtracts 5 - 2 to equal 3', () => {
@@ -18,7 +18,7 @@ describe('SUBTRACT Testing', () => {
   test('subtracts 8 - 2 to NOT equal 3', () => {
     expect(Number(operate(5, 2, '-'))).not.toBe(5);
   });
-})
+});
 
 describe('MULTIPLY Testing', () => {
   test('multiplies 5 * 2 to equal 10', () => {
@@ -28,7 +28,7 @@ describe('MULTIPLY Testing', () => {
   test('multiplies 6 * 6 to NOT equal 35', () => {
     expect(Number(operate(6, 6, 'x'))).not.toBe(35);
   });
-})
+});
 
 describe('DIVIDE Testing', () => {
   test('divide 6 / 2 to equal 3', () => {
@@ -38,4 +38,4 @@ describe('DIVIDE Testing', () => {
   test('divide 8 / 2 to NOT equal 5', () => {
     expect(Number(operate(8, 2, '÷'))).not.toBe(5);
   });
-})
+});

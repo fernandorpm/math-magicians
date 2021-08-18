@@ -4,7 +4,7 @@ let calcObj = {};
 
 beforeEach(() => {
   calcObj = {};
-})
+});
 
 describe('Calculates an ADDITION correctly', () => {
   test('adds 1 + 2 to equal 3', () => {
@@ -31,7 +31,7 @@ describe('Calculates an ADDITION correctly', () => {
 
     expect(Number(calcObj.total)).toBe(3.9);
   });
-})
+});
 
 describe('Calculates a SUBTRACTION correctly', () => {
   test('subtracts 1 - 2 to equal -1', () => {
@@ -58,7 +58,7 @@ describe('Calculates a SUBTRACTION correctly', () => {
 
     expect(Number(calcObj.total)).toBe(-1.5);
   });
-})
+});
 
 describe('Calculates a MULTIPLICATION correctly', () => {
   test('multiplies 1.5 * 2 to equal 3', () => {
@@ -90,7 +90,7 @@ describe('Calculates a MULTIPLICATION correctly', () => {
 
     expect(Number(calcObj.total)).toBe(3.24);
   });
-})
+});
 
 describe('Calculates a DIVISION correctly', () => {
   test('divides 3 / 2 to equal 1.5', () => {
@@ -116,4 +116,4 @@ describe('Calculates a DIVISION correctly', () => {
 
     expect(Number(calcObj.total)).not.toBe(0);
   });
-})
+});
