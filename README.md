@@ -19,6 +19,9 @@
 - `npm install`
 - `yarn start`
 
+### Testing
+- `npm run test`
+
 ## Authors
 
 👤 **Fernando R P Marques**
