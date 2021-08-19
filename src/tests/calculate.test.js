@@ -117,3 +117,17 @@ describe('Calculates a DIVISION correctly', () => {
     expect(Number(calcObj.total)).not.toBe(0);
   });
 });
+
+describe('Gives you the percentage of a number', () => {
+  test('5 percent of 100 iqual to 5', () => {
+    calcObj = calculate(calcObj, '5');
+
+    calcObj = calculate(calcObj, '%');
+
+    calcObj = calculate(calcObj, '100');
+
+    calcObj = calculate(calcObj, '=');
+
+    expect(Number(calcObj.total)).toBe(5);
+  });
+});
