@@ -30,6 +30,11 @@
 - Twitter: [@rpm_fernando](https://twitter.com/rpm_fernando)
 - LinkedIn: [Fernando R P Marques](https://linkedin.com/in/fernandorpm)
 
+👤  **Carlos Ospina**
+
+- GitHub: [Carloso0114](https://github.com/carloso0114)
+- LinkedIn: [Carlos Ospina](https://www.linkedin.com/in/carlosospina/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
