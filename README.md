@@ -6,6 +6,10 @@
 
 ![screenshot](./app_screenshot.png)
 
+## Live Demo
+- (Heroku)[https://math-magicians-fernandorpm.herokuapp.com/]
+- (Netlify)[https://elegant-leavitt-5ca716.netlify.app/]
+
 ## Built With
 
 - HTML/CSS
