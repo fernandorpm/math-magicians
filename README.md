@@ -4,7 +4,7 @@
 
 > A simple react calculator for @microverse.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.gif)
 
 ## Live Demo
 - (Heroku)[https://math-magicians-fernandorpm.herokuapp.com/]
